@@ -55,14 +55,30 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
             mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0, 60, 0, 0),
-                child: Image.network(
-                  'https://picsum.photos/seed/852/600',
-                  width: MediaQuery.of(context).size.width * 0.9,
-                  height: 100,
-                  fit: BoxFit.cover,
-                ),
+              Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 2, 0, 0),
+                    child: Text(
+                      '\nThea ',
+                      style: FlutterFlowTheme.of(context).bodyText1.override(
+                            fontFamily: 'Overpass',
+                            color: Color(0xFFEE8B60),
+                            fontSize: 18,
+                            fontWeight: FontWeight.w900,
+                          ),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                    child: Icon(
+                      Icons.calendar_today_outlined,
+                      color: FlutterFlowTheme.of(context).white,
+                      size: 24,
+                    ),
+                  ),
+                ],
               ),
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 36, 0, 0),
