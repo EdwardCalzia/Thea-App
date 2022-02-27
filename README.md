@@ -1,4 +1,4 @@
-# HackathonFeb22
+# Thea App
 
 A new Flutter project.
 
