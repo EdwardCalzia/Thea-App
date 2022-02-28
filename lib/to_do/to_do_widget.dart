@@ -22,7 +22,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF22D3EE),
         automaticallyImplyLeading: false,
         leading: FlutterFlowIconButton(
           borderColor: Colors.transparent,
@@ -60,7 +60,7 @@ class _ToDoWidgetState extends State<ToDoWidget> {
         onPressed: () {
           print('FloatingActionButton pressed ...');
         },
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF22D3EE),
         elevation: 8,
         child: FlutterFlowIconButton(
           borderColor: Colors.transparent,

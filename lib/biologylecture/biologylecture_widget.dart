@@ -21,7 +21,7 @@ class _BiologylectureWidgetState extends State<BiologylectureWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF22D3EE),
         automaticallyImplyLeading: false,
         leading: FlutterFlowIconButton(
           borderColor: Colors.transparent,
@@ -43,7 +43,7 @@ class _BiologylectureWidgetState extends State<BiologylectureWidget> {
           },
         ),
         title: Text(
-          'Page Title',
+          '[Page Title]',
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Overpass',
                 color: Colors.white,
@@ -72,24 +72,7 @@ class _BiologylectureWidgetState extends State<BiologylectureWidget> {
                           width: MediaQuery.of(context).size.width,
                           height: MediaQuery.of(context).size.height * 0.88,
                           decoration: BoxDecoration(
-                            gradient: LinearGradient(
-                              colors: [
-                                Color(0xFFF1958E),
-                                Color(0xFFA474EF),
-                                Color(0xFFF7F779)
-                              ],
-                              stops: [0, 0.5, 1],
-                              begin: AlignmentDirectional(0, -1),
-                              end: AlignmentDirectional(0, 1),
-                            ),
-                          ),
-                          child: Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(15, 15, 0, 0),
-                            child: Text(
-                              '',
-                              style: FlutterFlowTheme.of(context).title1,
-                            ),
+                            color: Color(0xFFEEEEEE),
                           ),
                         ),
                       ],

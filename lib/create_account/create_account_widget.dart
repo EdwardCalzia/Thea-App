@@ -64,7 +64,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                       '\nThea ',
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'Overpass',
-                            color: Color(0xFFEE8B60),
+                            color: Color(0xFF22D3EE),
                             fontSize: 18,
                             fontWeight: FontWeight.w900,
                           ),
@@ -295,8 +295,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                                 options: FFButtonOptions(
                                   width: 170,
                                   height: 50,
-                                  color:
-                                      FlutterFlowTheme.of(context).primaryColor,
+                                  color: Color(0xFF22D3EE),
                                   textStyle: FlutterFlowTheme.of(context)
                                       .subtitle2
                                       .override(
@@ -346,8 +345,7 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                                   .subtitle2
                                   .override(
                                     fontFamily: 'Overpass',
-                                    color: FlutterFlowTheme.of(context)
-                                        .primaryColor,
+                                    color: Color(0xFF22D3EE),
                                   ),
                               elevation: 0,
                               borderSide: BorderSide(

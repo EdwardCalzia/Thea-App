@@ -289,7 +289,7 @@ class _RegisterPageWidgetState extends State<RegisterPageWidget> {
                     options: FFButtonOptions(
                       width: 230,
                       height: 50,
-                      color: FlutterFlowTheme.of(context).primaryColor,
+                      color: Color(0xFF22D3EE),
                       textStyle:
                           FlutterFlowTheme.of(context).subtitle2.override(
                                 fontFamily: 'Overpass',

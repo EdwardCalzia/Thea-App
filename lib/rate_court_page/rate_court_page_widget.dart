@@ -117,14 +117,14 @@ class _RateCourtPageWidgetState extends State<RateCourtPageWidget> {
                             setState(() => ratingBarValue = newValue),
                         itemBuilder: (context, index) => Icon(
                           Icons.star_rounded,
-                          color: FlutterFlowTheme.of(context).primaryColor,
+                          color: Color(0xFF22D3EE),
                         ),
                         direction: Axis.horizontal,
                         initialRating: ratingBarValue ??= 3,
                         unratedColor: FlutterFlowTheme.of(context).grayLines,
                         itemCount: 5,
                         itemSize: 40,
-                        glowColor: FlutterFlowTheme.of(context).primaryColor,
+                        glowColor: Color(0xFF22D3EE),
                       ),
                     ),
                     Padding(
@@ -146,7 +146,7 @@ class _RateCourtPageWidgetState extends State<RateCourtPageWidget> {
                         options: FFButtonOptions(
                           width: 290,
                           height: 50,
-                          color: FlutterFlowTheme.of(context).primaryColor,
+                          color: Color(0xFF22D3EE),
                           textStyle:
                               FlutterFlowTheme.of(context).title3.override(
                                     fontFamily: 'Overpass',

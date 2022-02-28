@@ -20,7 +20,7 @@ class _ProductWidgetState extends State<ProductWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF22D3EE),
         automaticallyImplyLeading: false,
         title: Text(
           'Dashboard',
@@ -50,8 +50,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                         child: Column(
                           children: [
                             TabBar(
-                              labelColor:
-                                  FlutterFlowTheme.of(context).primaryColor,
+                              labelColor: Color(0xFF22D3EE),
                               unselectedLabelColor: Colors.black,
                               labelStyle:
                                   FlutterFlowTheme.of(context).bodyText1,
@@ -95,7 +94,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                 .bodyText1
                                                 .override(
                                                   fontFamily: 'Overpass',
-                                                  color: Color(0xFFEE8B60),
+                                                  color: Color(0xFF22D3EE),
                                                 ),
                                           ),
                                         ),
@@ -129,7 +128,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                 .bodyText1
                                                 .override(
                                                   fontFamily: 'Overpass',
-                                                  color: Color(0xFFEE8B60),
+                                                  color: Color(0xFF22D3EE),
                                                 ),
                                           ),
                                         ),
@@ -163,7 +162,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                                 .bodyText1
                                                 .override(
                                                   fontFamily: 'Overpass',
-                                                  color: Color(0xFFEE8B60),
+                                                  color: Color(0xFF22D3EE),
                                                 ),
                                           ),
                                         ),
@@ -223,7 +222,11 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           '8:00-9:00\n9:00-10:00\n10:00-11:00\n11:00-12:00\n13:00-14:00\n14:00-15:00\n15:00-16:00\n',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .bodyText1
+                                              .override(
+                                                fontFamily: 'Overpass',
+                                                color: Color(0xFFEE8B60),
+                                              ),
                                         ),
                                       ),
                                       Padding(
@@ -232,7 +235,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           'Latin\nBiology\nHistory\nPhysics\nSpanish\nMath\nPE',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .title3,
                                         ),
                                       ),
                                       Padding(
@@ -241,7 +244,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           'English\nBiology\nLatin\nPhysics\nPE\nPE\nPE',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .title3,
                                         ),
                                       ),
                                       Padding(
@@ -250,7 +253,11 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           '8:00-9:00\n9:00-10:00\n10:00-11:00\n11:00-12:00\n13:00-14:00\n14:00-15:00\n15:00-16:00\n',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .bodyText1
+                                              .override(
+                                                fontFamily: 'Overpass',
+                                                color: Color(0xFFEE8B60),
+                                              ),
                                         ),
                                       ),
                                       Padding(
@@ -259,11 +266,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           'English\nGreek\nHistory\nPhysics\nBiology\nLatin\nEngineering',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1
-                                              .override(
-                                                fontFamily: 'Overpass',
-                                                fontWeight: FontWeight.w500,
-                                              ),
+                                              .title3,
                                         ),
                                       ),
                                       Padding(
@@ -272,7 +275,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           'English\nGreek\nHistory\nPhysics\nBiology\nPE\nPhysics',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .title3,
                                         ),
                                       ),
                                       Padding(
@@ -281,7 +284,11 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           '8:00-9:00\n9:00-10:00\n10:00-11:00\n11:00-12:00\n13:00-14:00\n14:00-15:00\n15:00-16:00',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .bodyText1
+                                              .override(
+                                                fontFamily: 'Overpass',
+                                                color: Color(0xFFEE8B60),
+                                              ),
                                         ),
                                       ),
                                       Padding(
@@ -290,7 +297,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           'Engineering\nEngineering\nCS\nHistory\nPhysics\nFree period\nMath',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .title3,
                                         ),
                                       ),
                                       Padding(
@@ -299,7 +306,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                         child: AutoSizeText(
                                           'Rowing\nRowing\n-\n-\n-\n-\n-',
                                           style: FlutterFlowTheme.of(context)
-                                              .bodyText1,
+                                              .title3,
                                         ),
                                       ),
                                       Align(
@@ -338,7 +345,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                     children: [
                       TabBar(
                         isScrollable: true,
-                        labelColor: FlutterFlowTheme.of(context).primaryColor,
+                        labelColor: Color(0xFF22D3EE),
                         unselectedLabelColor: Colors.black,
                         labelStyle: FlutterFlowTheme.of(context).bodyText1,
                         indicatorColor:
@@ -363,7 +370,7 @@ class _ProductWidgetState extends State<ProductWidget> {
                                   EdgeInsetsDirectional.fromSTEB(15, 15, 0, 0),
                               child: Text(
                                 'Come to room 355 today at 12:35 for a lecture on the structure of plants.',
-                                style: FlutterFlowTheme.of(context).bodyText2,
+                                style: FlutterFlowTheme.of(context).bodyText1,
                               ),
                             ),
                             Padding(

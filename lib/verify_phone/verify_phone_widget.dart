@@ -51,7 +51,7 @@ class _VerifyPhoneWidgetState extends State<VerifyPhoneWidget> {
                     'Verify Phone',
                     style: FlutterFlowTheme.of(context).title1.override(
                           fontFamily: 'Overpass',
-                          color: FlutterFlowTheme.of(context).primaryColor,
+                          color: Color(0xFF22D3EE),
                         ),
                   ),
                 ],
@@ -165,7 +165,7 @@ class _VerifyPhoneWidgetState extends State<VerifyPhoneWidget> {
                     options: FFButtonOptions(
                       width: 140,
                       height: 50,
-                      color: FlutterFlowTheme.of(context).primaryColor,
+                      color: Color(0xFF22D3EE),
                       textStyle:
                           FlutterFlowTheme.of(context).subtitle2.override(
                                 fontFamily: 'Overpass',

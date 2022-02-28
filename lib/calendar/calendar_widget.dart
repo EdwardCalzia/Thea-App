@@ -33,7 +33,7 @@ class _CalendarWidgetState extends State<CalendarWidget> {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-        backgroundColor: FlutterFlowTheme.of(context).primaryColor,
+        backgroundColor: Color(0xFF22D3EE),
         automaticallyImplyLeading: false,
         leading: FlutterFlowIconButton(
           borderColor: Colors.transparent,
@@ -74,7 +74,7 @@ class _CalendarWidgetState extends State<CalendarWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               FlutterFlowCalendar(
-                color: FlutterFlowTheme.of(context).primaryColor,
+                color: Color(0xFF22D3EE),
                 weekFormat: false,
                 weekStartsMonday: true,
                 onChange: (DateTimeRange newSelectedDate) {

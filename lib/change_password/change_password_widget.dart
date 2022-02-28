@@ -164,7 +164,7 @@ class _ChangePasswordWidgetState extends State<ChangePasswordWidget> {
                       options: FFButtonOptions(
                         width: 340,
                         height: 60,
-                        color: FlutterFlowTheme.of(context).primaryColor,
+                        color: Color(0xFF22D3EE),
                         textStyle:
                             FlutterFlowTheme.of(context).subtitle2.override(
                                   fontFamily: 'Lexend Deca',

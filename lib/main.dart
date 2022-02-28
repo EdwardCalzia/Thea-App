@@ -130,7 +130,7 @@ class _NavBarPageState extends State<NavBarPage> {
         currentIndex: currentIndex,
         onTap: (i) => setState(() => _currentPage = tabs.keys.toList()[i]),
         backgroundColor: FlutterFlowTheme.of(context).secondaryColor,
-        selectedItemColor: FlutterFlowTheme.of(context).primaryColor,
+        selectedItemColor: Color(0xFF22D3EE),
         unselectedItemColor: FlutterFlowTheme.of(context).iconGray,
         showSelectedLabels: false,
         showUnselectedLabels: false,
@@ -151,6 +151,10 @@ class _NavBarPageState extends State<NavBarPage> {
           BottomNavigationBarItem(
             icon: Icon(
               Icons.library_add_check_rounded,
+              size: 24,
+            ),
+            activeIcon: Icon(
+              Icons.home,
               size: 24,
             ),
             label: 'To-Do',
