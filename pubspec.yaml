@@ -52,6 +52,7 @@ dependencies:
       url: https://github.com/asmengistu/dart_packages
       ref: ab18d53a80e0a4bb90f1ad84f37f1b408930f28d
       path: packages/sign_in_with_apple/sign_in_with_apple/
+  smooth_page_indicator: 1.0.0+2
   table_calendar: 2.3.3
   timeago: 3.1.0
   url_launcher: 6.0.15

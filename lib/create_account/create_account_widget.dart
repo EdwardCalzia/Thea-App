@@ -125,10 +125,21 @@ class _CreateAccountWidgetState extends State<CreateAccountWidget> {
                                       color: Color(0xFFDBE2E7),
                                     ),
                                   ),
-                                  child: Icon(
-                                    Icons.call_rounded,
-                                    color: Color(0xFF090F13),
-                                    size: 24,
+                                  child: InkWell(
+                                    onTap: () async {
+                                      await Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) =>
+                                              PhoneSignInWidget(),
+                                        ),
+                                      );
+                                    },
+                                    child: Icon(
+                                      Icons.call_rounded,
+                                      color: Color(0xFF090F13),
+                                      size: 24,
+                                    ),
                                   ),
                                 ),
                               ),

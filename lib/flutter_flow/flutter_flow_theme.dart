@@ -67,7 +67,7 @@ abstract class FlutterFlowTheme {
 }
 
 class LightModeTheme extends FlutterFlowTheme {
-  Color primaryColor = const Color(0xFFEE8B60);
+  Color primaryColor = const Color(0xFF22D3EE);
   Color secondaryColor = const Color(0xFF262D34);
   Color tertiaryColor = const Color(0xFF39D2C0);
   Color alternate = const Color(0x00000000);

@@ -54,7 +54,7 @@ class _RateCourtPageWidgetState extends State<RateCourtPageWidget> {
           },
         ),
         title: Text(
-          'Rate Court',
+          'Rate Thea',
           style: FlutterFlowTheme.of(context).title3,
         ),
         actions: [],

@@ -30,7 +30,7 @@ class _NoteWidgetState extends State<NoteWidget> {
       width: MediaQuery.of(context).size.width,
       height: 410,
       decoration: BoxDecoration(
-        color: Color(0xFFEE8B60),
+        color: Color(0xFF22D3EE),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0),
           bottomRight: Radius.circular(0),

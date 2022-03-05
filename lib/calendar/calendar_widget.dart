@@ -2,7 +2,6 @@ import '../flutter_flow/flutter_flow_calendar.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
-import '../main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -46,12 +45,7 @@ class _CalendarWidgetState extends State<CalendarWidget> {
             size: 30,
           ),
           onPressed: () async {
-            await Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => NavBarPage(initialPage: 'Product'),
-              ),
-            );
+            Navigator.pop(context);
           },
         ),
         title: Text(

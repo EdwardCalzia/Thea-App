@@ -16,6 +16,7 @@ import 'product/product_widget.dart';
 import 'to_do/to_do_widget.dart';
 import 'notes/notes_widget.dart';
 import 'calendar/calendar_widget.dart';
+import 'notices/notices_widget.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -122,6 +123,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'ToDo': ToDoWidget(),
       'Notes': NotesWidget(),
       'Calendar': CalendarWidget(),
+      'Notices': NoticesWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPage);
     return Scaffold(
@@ -171,6 +173,18 @@ class _NavBarPageState extends State<NavBarPage> {
           BottomNavigationBarItem(
             icon: FaIcon(
               FontAwesomeIcons.calendarAlt,
+              size: 24,
+            ),
+            label: 'Home',
+            tooltip: '',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.notifications_none,
+              size: 24,
+            ),
+            activeIcon: Icon(
+              Icons.notifications,
               size: 24,
             ),
             label: 'Home',
