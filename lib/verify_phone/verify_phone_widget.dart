@@ -152,6 +152,7 @@ class _VerifyPhoneWidgetState extends State<VerifyPhoneWidget> {
                       if (phoneVerifiedUser == null) {
                         return;
                       }
+
                       await Navigator.pushAndRemoveUntil(
                         context,
                         MaterialPageRoute(
